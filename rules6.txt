@@ -1,0 +1,25 @@
+// Удалить из слова первое вхождение символа a, если такое имеется.
+// Alphabet: {a, b, c}
+_q1->_q1R
+aq1->aq3R
+bq1->bq2R
+cq1->cq2R
+_q2->_q1R
+_q3->_q1R
+aq2->aq3R
+aq3->_q4R
+_q4->_STOPS
+aq4->_q5L
+bq4->_q6L
+cq4->_q7L
+_q5->aq8R
+_q6->bq8R
+_q7->cq8R
+_q8->_q9R
+_q9->_STOPS
+aq9->_q5L
+bq9->_q6L
+cq9->_q7L
+//
+bq3->bq3R
+cq3->cq3R

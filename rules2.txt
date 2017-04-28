@@ -1,0 +1,5 @@
+// Multiplying binary number by 2
+// First position is already on the number
+1q1->1q1R
+0q1->0q1R
+_q1->0STOPS

@@ -1,0 +1,34 @@
+// Стереть непустое слово, если его первый и последний символ одинаковы. В противном случае оставить слово без изменений.
+// Alphabet: {a, b, c}.
+_q1->_q1R
+aq1->aq2R
+bq1->bq3R
+cq1->cq4R
+aq2->aq2R
+bq2->bq2R
+cq2->cq2R
+aq3->aq3R
+bq3->bq3R
+cq3->cq3R
+aq4->aq4R
+bq4->bq4R
+cq4->cq4R
+//
+_q2->_q5L
+_q3->_q6L
+_q4->_q7L
+//
+aq5->_q8L
+bq6->_q8L
+cq7->_q8L
+aq8->_q8L
+bq8->_q8L
+cq8->_q8L
+_q8->_STOPS
+//
+bq5->bSTOPS
+cq5->cSTOPS
+aq6->aSTOPS
+cq6->cSTOPS
+aq7->aSTOPS
+bq7->bSTOPS

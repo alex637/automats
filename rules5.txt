@@ -1,0 +1,17 @@
+// Удалить из слова второй символ, если такой есть.
+// Alphabet: {a, b}
+_q1->_q1R
+aq1->aq2R
+bq1->bq2R
+aq2->_q3R
+bq2->_q3R
+_q2->_q1R
+_q3->_STOPS
+aq3->_q4L
+bq3->_q5L
+_q4->aq6R
+_q5->bq6R
+_q6->_q7R
+_q7->_STOPS
+aq7->_q4L
+bq7->_q5L

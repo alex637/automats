@@ -1,0 +1,29 @@
+// Перенести первый символ слова в конец
+// Alphabet: a, b, c, d.
+_q1->_q1R
+aq1->_q2R
+bq1->_q3R
+cq1->_q4R
+dq1->_q5R
+//
+aq2->aq2R
+aq3->aq3R
+aq4->aq4R
+aq5->aq5R
+cq2->cq2R
+cq3->cq3R
+cq4->cq4R
+cq5->cq5R
+bq2->bq2R
+bq3->bq3R
+bq4->bq4R
+bq5->bq5R
+dq2->dq2R
+dq3->dq3R
+dq4->dq4R
+dq5->dq5R
+//
+_q2->aSTOPS
+_q3->bSTOPS
+_q4->cSTOPS
+_q5->dSTOPS
